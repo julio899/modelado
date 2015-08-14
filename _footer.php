@@ -494,7 +494,7 @@
 
 
 
-<script src="<?php echo $dir_js;?>main.min.js"></script>
+<script src="https://d3fjoi8mc83q5y.cloudfront.net/static/base/js/main.min.js"></script>
 
 <div id="fb-root"></div>
 

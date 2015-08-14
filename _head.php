@@ -1,4 +1,6 @@
 <?php
+
+header("Access-Control-Allow-Origin: *");
 require_once('config.php');
 ?>
 
@@ -20,8 +22,8 @@ require_once('config.php');
     <link rel="apple-touch-icon-precomposed" href="<?php echo $dir_img;?>apple-touch-icon-57-precomposed.png">
 
 
-    <link rel="stylesheet" href="<?php echo $dir_css;?>site.css"/>
-
+    <link rel="stylesheet" href="<?php echo $dir_css;?>site.css"/> <!-- -->
+<!--    <link rel="stylesheet" href="https://d3fjoi8mc83q5y.cloudfront.net/static/base/css/site.css" />  -->
 
 
 </head>
