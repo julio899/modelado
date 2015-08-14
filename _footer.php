@@ -62,7 +62,7 @@
                 <div class="col-xs-8 col-xs-offset-2">
                     <ul class="slider lavaLamp">
                         <li class="active current" data-event="pageSliderChange" data-target="one">Nuestros Servicios</li>
-                        <li data-event="pageSliderChange" data-target="two">02 What it does</li>
+                        <li data-event="pageSliderChange" data-target="two">Metas Realizadas</li>
                         <li data-event="pageSliderChange" data-target="three">03 How it works</li>
                     </ul>
                 </div>
@@ -295,7 +295,7 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-xs-12 col-sm-7 satellite-diagram">
-                        <img class="img-responsive" src="https://d3fjoi8mc83q5y.cloudfront.net/static/base/img/sense-graphic.png" />
+                        <img class="img-responsive" src="<?php echo $dir_img;?>sense-graphic.png" />
                     </div>
                     <div class="col-xs-12 col-sm-5 product-text-lockup">
                         <h2 class="name">spire&nbsp;<span>sense</span><span class="sup">&#8482;</span></h2>
@@ -493,9 +493,12 @@
 
 
 
-
+<!--
 <script src="https://d3fjoi8mc83q5y.cloudfront.net/static/base/js/main.min.js"></script>
+-->
 
+<script src="<?php echo $dir_js;?>main.min.js"></script>
+-
 <div id="fb-root"></div>
 
 
