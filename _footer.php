@@ -43,22 +43,17 @@
         </svg>
     </div>
 
+<?php
+        switch ($page) {
+            case 'servicios':
+                require_once ('servicios/sense/baner_principal_servicios.php');
+                break;
 
-    <section class="module hero h660 fixed">
-
-        <figure class="module-bg">
-            <img class="img-responsive" src="<?php echo $dir_img;?>products-waterway.jpg" alt="" />
-        </figure>
-
-        <div class="container vertical-align text-center">
-            <div class="row">
-                <div class="col-xs-12">
-                    <h1 class="alpha-product">Azpro<span class="secondary">tec</span><span class="sup"></span></h1>
-                    <p class="beta-product">The first data stream designed for full maritime awareness — delivering<br class="hidden-xs hidden-sm"/> minute by minute intelligence from any point on Earth.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+            default:
+                # code...
+                break;
+        }
+    ?>
 
     <section class="module text-center" id="page-slider">
 
@@ -66,7 +61,7 @@
             <div class="row">
                 <div class="col-xs-8 col-xs-offset-2">
                     <ul class="slider lavaLamp">
-                        <li class="active current" data-event="pageSliderChange" data-target="one">01 Who it's for</li>
+                        <li class="active current" data-event="pageSliderChange" data-target="one">Nuestros Servicios</li>
                         <li data-event="pageSliderChange" data-target="two">02 What it does</li>
                         <li data-event="pageSliderChange" data-target="three">03 How it works</li>
                     </ul>
@@ -82,16 +77,17 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 col-sm-5 product-text-lockup">
-                        <h2 class="name">spire&nbsp;<span>sense</span><span class="sup">&#8482;</span></h2>
-                        <p class="number">01</p>
-                        <p class="subtitle">Who it's for</p>
+                        <h2 class="name">Azprotec&nbsp;</h2>
+                        <p class="number"><span>Servicios</span></p>
+                        <p class="subtitle">Unicos</p>
                     </div>
                     <div class="col-xs-12 col-sm-7">
-                        <p class="padding-top20">Most of the goods surrounding you right now traveled over the world's oceans at some point in their lifecycle. Literally trillions of dollars worth of goods cross the oceans every year, and yet today's technology for keeping people and goods safe in that environment is unreliable, and erratic at best. Consistent data covering all of Earth's oceans will mean: decreased search time and improved rescue efficiency for Coast Guard officers; greater security for ships' crews against modern day pirates; improved quality of life for local fisherman whose livelihood is stolen by illegal or unreported fishing activity; higher levels of confidence in decision-making by those whose operations rely upon a truly global supply chain; and the list goes on and on.</p>
+                        <p class="padding-top20">Nos encargamos del diseño, instalación y operación de los sistemas que ofrecemos en conjunto con la capacidad y creatividad de nuestro personal técnico, adecuándonos de manera funcional a cualquier necesidad, asegurándonos de que su evento resulte como lo planeó.</p>
                     </div>
                     <div class="col-xs-12 boat-wrapper hidden-xs">
-                        <img class="img-responsive" src="https://d3fjoi8mc83q5y.cloudfront.net/static/base/img/sense-water.jpg" />
-                        <img class="img-responsive boat" src="https://d3fjoi8mc83q5y.cloudfront.net/static/base/img/sense-boat.png" />
+                        <img class="img-responsive" src="<?php echo $dir_img;?>serv-med-1.jpg" />
+                        <!-- <img class="img-responsive boat" src="https://d3fjoi8mc83q5y.cloudfront.net/static/base/img/sense-boat.png" />
+
                         <div class="left points">
                             <div class="hover-1">
                                 <div class="boat-hover" data-target="info-L1">
@@ -171,9 +167,10 @@
 
 
                         </div>
+                        -->
                     </div>
                     <div class="col-xs-12 no-padding hidden-sm hidden-md hidden-lg">
-                        <img class="img-responsive" src="https://d3fjoi8mc83q5y.cloudfront.net/static/base/img/sense-boat-mobile.png" />
+                        <img class="img-responsive" src="<?php echo $dir_img;?>serv-med-1-mobile.png" />
                     </div>
                 </div>
             </div>
@@ -497,7 +494,7 @@
 
 
 
-<script src="https://d3fjoi8mc83q5y.cloudfront.net/static/base/js/main.min.js"></script>
+<script src="<?php echo $dir_js;?>main.min.js"></script>
 
 <div id="fb-root"></div>
 
