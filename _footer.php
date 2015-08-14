@@ -420,54 +420,58 @@
 
 </main>
 
+
+<!-- Pie de pagina-->
+
 <footer class="module main-footer">
 
     <div class="row site-map">
         <div class="container">
             <div class="col-xs-12 col-sm-2 logo">
-                <a href="../../index.html">
-                    <img src="https://d3fjoi8mc83q5y.cloudfront.net/static/base/img/logo.png" />
+                <a href="index.html">
+                    <img src="<?php echo $dir_img;?>logo2.png">
                 </a>
             </div>
             <div class="col-xs-12 col-sm-2">
-                <h3><a href="index.html">Our Products</a></h3>
+                <h3><a href="<?php echo $dir_base;?>servicios/sense/index.php">Servicios</a></h3>
+                <!-- <h3><a href="products/sense/index.html">Servicios</a></h3> -->
                 <ul>
-                    <li><a href="index.html">Spire Sense</a></li>
-                    <li><a href="../stratos/index.html">Spire Stratos</a></li>
+                    <li><a href="<?php echo $dir_base;?>servicios/sense/index.php">Azprotec servicios</a></li>
+                    <!-- <li><a href="products/servicios/index.html">Azprotec servicios</a></li> -->
                 </ul>
             </div>
             <div class="col-xs-12 col-sm-2">
-                <h3><a href="../../our-company/index.html">Our Company</a></h3>
+                <h3><a href="#">Our Company</a></h3>
                 <ul>
-                    <li><a href="../../our-company/index.html#about/r">About</a></li>
-                    <li><a href="../../our-company/index.html#milestones/r">Milestones</a></li>
-                    <li><a href="../../our-company/index.html#team/r">The Team</a></li>
-                    <li><a href="../../our-company/index.html#offices/r">Our Offices</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Milestones</a></li>
+                    <li><a href="#">The Team</a></li>
+                    <li><a href="#">Our Offices</a></li>
                 </ul>
             </div>
             <div class="col-xs-12 col-sm-2">
-                <h3><a href="../../careers/index.html">Careers</a></h3>
+                <h3><a href="#">Careers</a></h3>
                 <ul>
-                    <li><a href="../../careers/index.html#ourCulture/r">Our Culture</a></li>
-                    <li><a href="../../careers/index.html#hiringProcess/r">The Hiring process</a></li>
-                    <li><a href="../../careers/index.html#open-positions/r">Current Openings</a></li>
-                    <li><a href="../../careers/index.html#common-questions/r">FAQs</a></li>
+                    <li><a href="#">Our Culture</a></li>
+                    <li><a href="#">The Hiring process</a></li>
+                    <li><a href="#">Current Openings</a></li>
+                    <li><a href="#">FAQs</a></li>
                 </ul>
             </div>
             <div class="col-xs-12 col-sm-2">
-                <h3><a href="../../insights/index.html">Insights Blog</a></h3>
+                <h3><a href="#">Insights Blog</a></h3>
                 <ul>
-                    <li><a href="../../insights/index.html#articles/r">Articles</a></li>
-                    <li><a href="../../insights/index.html#happenings/r">Happenings</a></li>
+                    <li><a href="#">Articles</a></li>
+                    <li><a href="#">Happenings</a></li>
                 </ul>
             </div>
             <div class="col-xs-12 col-sm-2 social-icons">
                 <ul>
-                    <li>&copy; 2015 Spire Global, Inc.</li>
+                    <li>© 2015 Azprotec.</li>
                 </ul>
-                <a href="https://www.facebook.com/SpireGlobal" target="_blank"><img src="https://d3fjoi8mc83q5y.cloudfront.net/static/base/img/teal-social/facebook.png"></a>
-                <a href="https://twitter.com/spireglobal" target="_blank"><img src="https://d3fjoi8mc83q5y.cloudfront.net/static/base/img/teal-social/twitter.png"></a>
-                <a href="https://www.linkedin.com/company/spireglobal" target="_blank"><img src="https://d3fjoi8mc83q5y.cloudfront.net/static/base/img/teal-social/linkedin.png"></a>
+                <a href="https://www.facebook.com/Azprotec" target="_blank"><img src="https://d3fjoi8mc83q5y.cloudfront.net/static/base/img/teal-social/facebook.png"></a>
+                <a href="https://twitter.com/Azprotec" target="_blank"><img src="https://d3fjoi8mc83q5y.cloudfront.net/static/base/img/teal-social/twitter.png"></a>
+                <a href="https://www.linkedin.com/company/Azprotec" target="_blank"><img src="https://d3fjoi8mc83q5y.cloudfront.net/static/base/img/teal-social/linkedin.png"></a>
             </div>
         </div>
     </div>
@@ -476,21 +480,21 @@
         <div class="container">
             <div class="xs-col-12">
                 <ul class="hidden-xs">
-                    <li><span>CAREERS</span>&ensp;|&ensp;<a href="mailto:careers@spire.com">careers@spire.com</a></li>
-                    <li><span>BUSINESS OPPORTUNITIES</span>&ensp;|&ensp;<a href="mailto:info@spire.com">info@spire.com</a></li>
-                    <li><span>PRESS</span>&ensp;|&ensp;<a href="mailto:press@spire.com">press@spire.com</a></li>
-                    <li><span>CALL US</span>&ensp;|&ensp;<a href="tel:+1 415-356-3400">415-356-3400 </a></li>
-                    <li><span><a href="../../our-company/index.html#offices">VISIT US</a></span></li>
+                    <li><span>INFO</span> | <a href="mailto:info@azprotec.com">info@azprotec.com</a></li>
+                    <li><span>BUSINESS OPPORTUNITIES</span> | <a href="mailto:info@azprotec.com">info@azprotec.com</a></li>
+                    <li><span>PRESS</span> | <a href="mailto:press@azprotec.com">press@azprotec.com</a></li>
+                    <li><span>CALL US</span> | <a href="tel:+1 123-100-0000">415-356-3400 </a></li>
+                    <li><span><a href="#">VISIT US</a></span></li>
+                    <!-- <li><span><a href="our-company/index.html#offices">VISIT US</a></span></li> -->
                 </ul>
                 <ul class="hidden-sm hidden-md hidden-lg">
-                    <li>&copy; 2015 Spire Global, Inc.</li>
+                    <li>© 2015 Azprotec.</li>
                 </ul>
             </div>
         </div>
     </div>
 
 </footer>
-
 
 
 <!--
