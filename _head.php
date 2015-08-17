@@ -24,7 +24,60 @@ require_once('config.php');
 
     <link rel="stylesheet" href="<?php echo $dir_css;?>site.css"/> <!-- -->
 <!--    <link rel="stylesheet" href="https://d3fjoi8mc83q5y.cloudfront.net/static/base/css/site.css" />  -->
+ <style type="text/css">
+    .parrafo{
+        text-align: justify;
+        text-indent: 1cm;
+    }
+    p.parrafo:first-letter { text-transform: uppercase; font-size: 1.5em; }
+    .MAYUSCULA{
+        text-transform: uppercase;
+    }
+    div.img-cultura{
+        background-image: url('./img/');
+        background-repeat: no-repeat;
+    }
+    #video1{
+        margin-left: 5%;
+        width: 90%;
+        min-height:287px;
 
+    }
+    div#loader{
+
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  width: 100%;
+  height: 100%;
+        background-color: #201e20;
+        /*float: left;*/
+        padding-right: 400px;
+    }
+    span.status{
+        float: right;
+        text-align:right;
+    }
+    .sub_titulos{
+
+    background: #fff;
+    background: rgba(255,255,255,.5);
+    border-radius: 5px;
+    box-shadow: 5px 3px 5px rgb(200,200,200);
+    font-size: 1.7em;
+    font-style: italic;
+    margin: 0 auto;
+    padding: 15px 0;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+    /* kirobold kiroextralight*/
+    font-family: "kirobold";
+    
+    width: 40%;
+    }
+    </style>
 
 </head>
 
@@ -94,13 +147,13 @@ require_once('config.php');
                         </div>
                     </div>
                 </a>
-                <a href="../stratos/index.html">
+                <a href="#"> 
+                <!-- <a href="../stratos/index.html"> -->
                     <div class="col-xs-6 product-wrapper">
                         <div class="bg-img" style="background-image: url(<?php echo $dir_img;?>elements-nav.jpg)">
                             <div class="vertical-align">
-                                <h2>Spire&nbsp;<span>Stratos</span><span class="sup">&#8482;</span></h2>
-                                <p>High fidelity weather data from the world's<br/> largest constellation of weather
-                                    satellites</p>
+                                <h2>Azprotec<span> Eventos<span class="sup"></span></h2>
+                                <p>Muy pronto.</p>
                             </div>
                         </div>
                     </div>
@@ -110,3 +163,58 @@ require_once('config.php');
     </div>
 
 </header>
+
+<!-- Fondo de servicios MOBIL-->
+<div class="hamburger-nav hidden-md hidden-lg">
+    <ul>
+        <li class="products">
+            <a href="#">Our Products</a>
+            <ul>
+                <li>
+                    <a href="index.php">Azprotec<span> Servicios</span></a>
+                </li>
+                <li>
+                    <a href="#">Azprotec<span> Eventos</span></a>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">Our Company</a>
+        </li>
+        <li>
+            <a href="#">Careers</a>
+        </li>
+        <li>
+            <a href="#">Insights</a>
+        </li>
+    </ul>
+    <div class="social-links">
+        <a href="https://www.facebook.com/Azprotec" target="_blank"><img src="<?php echo $dir_img;?>facebook.png"></a>
+        <a href="https://twitter.com/Azprotec" target="_blank"><img src="<?php echo $dir_img;?>twitter.png"></a>
+        <a href="https://www.linkedin.com/company/Azprotec" target="_blank"><img src="<?php echo $dir_img;?>linkedin.png"></a>
+    </div>
+</div>
+<!-- FIN de Fondo de servicios MOBIL-->
+
+
+
+<!-- Content Start -->
+
+
+<?php
+        switch ($page) {
+            case 'servicios':
+                echo '<main role="main" class="body">';
+                require_once ('servicios/sense/baner_principal_servicios.php');
+                require_once ('servicios/sense/slider_galeria_servicios.php');
+                echo '</main>';
+                break;
+            case 'home':
+                require_once ('home.php');
+                break;
+
+            default:
+                # code...
+                break;
+        }
+    ?>
