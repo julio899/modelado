@@ -63,7 +63,7 @@
                     <ul class="slider lavaLamp">
                         <li class="active current" data-event="pageSliderChange" data-target="one">Nuestros Servicios</li>
                         <li data-event="pageSliderChange" data-target="two">Metas Realizadas</li>
-                        <li data-event="pageSliderChange" data-target="three">03 How it works</li>
+                        <li data-event="pageSliderChange" data-target="three">Como Trabajamos</li>
                     </ul>
                 </div>
             </div>
@@ -180,45 +180,29 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 col-sm-6 no-padding">
-                        <div class="globe-wrapper col-xs-12 text-center">
-                            <img class="margin-center img-responsive" src="https://d3fjoi8mc83q5y.cloudfront.net/static/base/img/products_globe2.png">
-                            <canvas id="satellite-orbit" width="400" height="225"></canvas>
-                        </div>
 
-                        <div class="calculator-slider-section no-padding col-sm-8 col-sm-offset-2 col-xs-10
-                        col-xs-offset-1">
-                            <div class="calculator-slider" data-name="calculator-slider">
-                                <div class="calculator-slider-progress"></div>
-                                <div class="calculator-slider-handle"></div>
-                            </div>
-                        </div>
 
                         <div class="col-xs-12">
                             <div class="row clearfix value-container">
-                                <div class="calculator-value color-teal text-center col-xs-4">
-                                    <span id="calculator-value-satellites-sense">20</span>
-                                    <small>Satellites in orbit</small>
+                                <div class="calculator-value color-teal text-center col-xs-6">
+                                    <small>Más de </small>
+                                    <span id="calculator-value-satellites-sense">30</span>
+                                    <small>Años de Experiencia</small>
                                 </div>
-                                <div class="calculator-value middle-value color-teal text-center col-xs-4">
-                                    <span id="calculator-value-time-sense">14.4</span>
-                                    <small>Revisit time in minutes.</small>
-                                </div>
-                                <div class="calculator-value color-red text-center col-xs-4">
-                                    <span id="calculator-value-improvement-sense">24</span><span class="x">x</span>
-                                    <small>
-                                        Better than today’s solutions.
-                                    </small>
+                                <div class="calculator-value middle-value color-teal text-center col-xs-6">
+                                    <small>Servicios de </small>
+                                    <span id="calculator-value-time-sense">Calidad</span>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-5 col-sm-offset-1 product-text-lockup">
 
-                        <h2 class="name">spire&nbsp;<span>sense</span><span class="sup">&#8482;</span></h2>
-                        <p class="number">02</p>
-                        <p class="subtitle">What it does</p>
+                        <h4 class="gamma">En Azprotec <span> entregamos el 100% para lograr tu maxima</span></h4>
+                        <p class="number">Satisfacción</p>
+                        <p class="subtitle">Son ustedes nuestra prioridad.</p>
 
-                        <p>Spire Sense provides the most frequently refreshed global ship tracking data in the industry, providing never-before-seen insights into problems like dark targets through partnerships with high resolution imaging and data fusion partners. Whether your use case involves simple geofencing or using data with pattern recognition for Illegal, Unreported, and Unregulated (IUU) fishing detection, we can configure [Sense] to meet your needs. Access can be configured through an easy to implement API.</p>
+                        <p>Implementamos nuestra capacidad y experiencia para brindarte, la mejor experiencia y calidad de servicio, brindamos soluciones amplias para tus expectativas y necesidades.</p>
 
                     </div>
                 </div>
@@ -231,40 +215,71 @@
                     <div id="component" class="component component-fullwidth fxPressAway">
                         <ul class="itemwrap">
                             <li class="current" data-title="90%">
-                                <img class="opacity-3" src="https://d3fjoi8mc83q5y.cloudfront.net/static/base/img/sense-slideshow/slide-1-bw.jpg" alt=""/>
+                                <img class="opacity-3" src="<?php echo $dir_img."servicios/slider";?>/slide-1-bw.jpg" alt=""/>
                                 <div class="vertical-align">
-                                    <img class="img-responsive" src="https://d3fjoi8mc83q5y.cloudfront.net/static/base/img/sense-slideshow/slide-1.jpg" alt=""/>
+                                    <img class="img-responsive" src="<?php echo $dir_img."servicios/slider";?>/slide-1.jpg" alt=""/>
                                 </div>
                             </li>
-                            <li data-title="50 miles">
-                                <img class="opacity-3" src="https://d3fjoi8mc83q5y.cloudfront.net/static/base/img/sense-slideshow/slide-2-bw.jpg"
+                            <li data-title="Azprotec">
+                                <img class="opacity-3" src="<?php echo $dir_img."servicios/slider";?>/slide-2-bw.jpg"
                                      alt=""/>
                                 <div class="vertical-align">
-                                    <img class="img-responsive" src="https://d3fjoi8mc83q5y.cloudfront.net/static/base/img/sense-slideshow/slide-2.jpg" alt=""/>
+                                    <img class="img-responsive" src="<?php echo $dir_img."servicios/slider";?>/slide-2.jpg" alt=""/>
                                 </div>
                             </li>
-                            <li data-title="$6B/yr">
-                                <img class="opacity-3" src="https://d3fjoi8mc83q5y.cloudfront.net/static/base/img/sense-slideshow/slide-3-bw.jpg"
-                                     alt=""/>
-                                <div class="vertical-align">
-                                    <img class="img-responsive" src="
-                                    https://d3fjoi8mc83q5y.cloudfront.net/static/base/img/sense-slideshow/slide-3.jpg" alt=""/>
-                                </div>
-                            </li>
-                            <li data-title="$12B/yr">
-                                <img class="opacity-3" src="https://d3fjoi8mc83q5y.cloudfront.net/static/base/img/sense-slideshow/slide-4-bw.jpg"
+                            <li data-title="Azprotec">
+                                <img class="opacity-3" src="<?php echo $dir_img."servicios/slider";?>/slide-3-bw.jpg"
                                      alt=""/>
                                 <div class="vertical-align">
                                     <img class="img-responsive" src="
-                                    https://d3fjoi8mc83q5y.cloudfront.net/static/base/img/sense-slideshow/slide-4.jpg" alt=""/>
+                                    <?php echo $dir_img."servicios/slider";?>/slide-3.jpg" alt=""/>
                                 </div>
                             </li>
-                            <li data-title="30+ million">
-                                <img class="opacity-3" src="https://d3fjoi8mc83q5y.cloudfront.net/static/base/img/sense-slideshow/slide-5-bw.jpg"
+                            <li data-title="Azprotec">
+                                <img class="opacity-3" src="<?php echo $dir_img."servicios/slider";?>/slide-4-bw.jpg"
                                      alt=""/>
                                 <div class="vertical-align">
-                                    <img class="img-responsive" src="
-                                    https://d3fjoi8mc83q5y.cloudfront.net/static/base/img/sense-slideshow/slide-5.jpg" alt=""/>
+                                    <img class="img-responsive" src="<?php echo $dir_img."servicios/slider";?>/slide-4.jpg" alt=""/>
+                                </div>
+                            </li>
+
+                            <li data-title="Azprotec">
+                                <img class="opacity-3" src="<?php echo $dir_img."servicios/slider";?>/slide-5-bw.jpg"
+                                     alt=""/>
+                                <div class="vertical-align">
+                                    <img class="img-responsive" src="<?php echo $dir_img."servicios/slider";?>/slide-5.jpg" alt=""/>
+                                </div>
+                            </li>
+
+                            <li data-title="Azprotec">
+                                <img class="opacity-3" src="<?php echo $dir_img."servicios/slider";?>/slide-6-bw.jpg"
+                                     alt=""/>
+                                <div class="vertical-align">
+                                    <img class="img-responsive" src="<?php echo $dir_img."servicios/slider";?>/slide-6.jpg" alt=""/>
+                                </div>
+                            </li>
+
+                            <li data-title="Azprotec">
+                                <img class="opacity-3" src="<?php echo $dir_img."servicios/slider";?>/slide-7-bw.jpg"
+                                     alt=""/>
+                                <div class="vertical-align">
+                                    <img class="img-responsive" src="<?php echo $dir_img."servicios/slider";?>/slide-7.jpg" alt=""/>
+                                </div>
+                            </li>
+
+                            <li data-title="Azprotec">
+                                <img class="opacity-3" src="<?php echo $dir_img."servicios/slider";?>/slide-8-bw.jpg"
+                                     alt=""/>
+                                <div class="vertical-align">
+                                    <img class="img-responsive" src="<?php echo $dir_img."servicios/slider";?>/slide-8.jpg" alt=""/>
+                                </div>
+                            </li>
+
+                            <li data-title="Azprotec">
+                                <img class="opacity-3" src="<?php echo $dir_img."servicios/slider";?>/slide-9-bw.jpg"
+                                     alt=""/>
+                                <div class="vertical-align">
+                                    <img class="img-responsive" src="<?php echo $dir_img."servicios/slider";?>/slide-9.jpg" alt=""/>
                                 </div>
                             </li>
                         </ul>
@@ -275,7 +290,7 @@
                                         <use xlink:href="#arrow-left"></use>
                                     </svg>
                                 </span>
-                                <h3>30+ million</h3>
+                                <h3>Azprotec</h3>
                             </a>
                             <a class="next" href="index.html#">
                                 <span class="icon-wrap">
@@ -283,7 +298,7 @@
                                         <use xlink:href="#arrow-right"></use>
                                     </svg>
                                 </span>
-                                <h3>50 miles</h3>
+                                <h3>Azprotec</h3>
                             </a>
                         </nav>
                     </div>
@@ -298,15 +313,15 @@
                         <img class="img-responsive" src="<?php echo $dir_img;?>sense-graphic.png" />
                     </div>
                     <div class="col-xs-12 col-sm-5 product-text-lockup">
-                        <h2 class="name">spire&nbsp;<span>sense</span><span class="sup">&#8482;</span></h2>
-                        <p class="number">03</p>
-                        <p class="subtitle">How it works</p>
+                        <h2 class="name"><span></span></h2>
+                        <p class="number">Azprotec</p>
+                        <p class="subtitle">Como Trabajamos</p>
 
-                        <h4 class="gamma">Ship Tracking</h4>
-                        <p class="padding-bottom40">A mere 50-nautical-miles after a ship leaves port, the signal from its AIS transponder (required to be on-board by International Maritime Law) becomes blocked by the curvature of the Earth. Our satellites, operating in Low Earth Orbit, provide The Ultimate High Ground to capture and relay critical information from every ship — no matter where it is — to the decision makers that need it most.</p>
+                        <h4 class="gamma">Ignovación</h4>
+                        <p class="padding-bottom40">Continuamente nos mantenemos, a la vanguardia de las ultimas tecnologias en equipos, funcionalidad y estrategias. Brindamos servicios con la mejor calidad en firmacion como de produccion y efectos de Iluminacion de la mas alta calidad. Equipos de vanguardia a tu disposición. </p>
 
-                        <h4 class="gamma">Sensor Fusion</h4>
-                        <p>Standard AIS data isn't the end of Sense, it is simply the beginning. Through fusing AIS and weather data, or fusing AIS with other space-based and terrestrial data providers, Sense is designed to deliver a highly contextual stream of data to tackle the truly complex problems that global organizations face day after day. For those that have a very particular need, please contact us. We are happy to evaluate additional data streams that can be fused with Sense.</p>
+                        <h4 class="gamma">Experiencias</h4>
+                        <p>Nuestros clientes y eventos, hablan por nosotros, dan testimnios de el profecionalismo con el cual trabajamos, su satisfaccion ha sido nuetro mayor logro y reconocimiento consegido.</p>
 
                     </div>
                 </div>
@@ -317,33 +332,29 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xs-10 col-xs-offset-1 text-center">
-                        <h2 class="gamma">Case Studies</h2>
-                        <p class="delta">This is how our customers use our data.</p>
+                        <h2 class="gamma">Nuestros Servicios</h2>
+                        <p class="delta">Servicios Azprotec.</p>
                     </div>
                     <div class="col-xs-12 col-sm-10 col-sm-offset-1 cases text-center">
                         <div class="col-xs-3 case-1 active" data-target=".mining" data-event="caseStudiesChange">
                             <div></div>
-                            <span>Mining</span>
-                            <img class="img-responsive margin-center grey" src="https://d3fjoi8mc83q5y.cloudfront.net/static/base/img/mine-grey.png" />
-                            <img class="img-responsive margin-center red" src="https://d3fjoi8mc83q5y.cloudfront.net/static/base/img/mine-red.png" />
+                            <span>Nosotros</span> <!--
+                            <img class="img-responsive margin-center grey" src="<?php echo $dir_img;?>servicios/galeria/icon-gale-1.png" />
+                            <img class="img-responsive margin-center red" src="<?php echo $dir_img;?>servicios/galeria/icon-gale-1.png" /> -->
                         </div>
                         <div class="col-xs-3 case-2" data-target=".government" data-event="caseStudiesChange">
                             <div></div>
-                            <span>Government</span>
-                            <img class="img-responsive margin-center grey" src="https://d3fjoi8mc83q5y.cloudfront.net/static/base/img/gov-grey.png" />
-                            <img class="img-responsive margin-center red" src="https://d3fjoi8mc83q5y.cloudfront.net/static/base/img/gov-red.png" />
+                            <span>Generadores Electricos</span><!--
+                            <img class="img-responsive margin-center grey" src="<?php echo $dir_img;?>servicios/galeria/icon-gale-2.png" />
+                            <img class="img-responsive margin-center red" src="<?php echo $dir_img;?>servicios/galeria/icon-gale-2.png" /> -->
                         </div>
                         <div class="col-xs-3 case-3" data-target=".portOperations" data-event="caseStudiesChange">
                             <div></div>
-                            <span>Port Operations</span>
-                            <img class="img-responsive margin-center grey" src="https://d3fjoi8mc83q5y.cloudfront.net/static/base/img/boat-grey.png" />
-                            <img class="img-responsive margin-center red" src="https://d3fjoi8mc83q5y.cloudfront.net/static/base/img/boat-red.png" />
+                            <span>Multimedia</span>
                         </div>
                         <div class="col-xs-3 case-4" data-target=".arcticShipping" data-event="caseStudiesChange">
                             <div></div>
-                            <span>Arctic Shipping</span>
-                            <img class="img-responsive margin-center grey" src="https://d3fjoi8mc83q5y.cloudfront.net/static/base/img/ship-grey.png" />
-                            <img class="img-responsive margin-center red" src="https://d3fjoi8mc83q5y.cloudfront.net/static/base/img/ship-red.png" />
+                            <span>Equipo y Producción</span>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-10 col-sm-offset-1 no-padding case-content">
@@ -360,47 +371,58 @@
                         <div class="mining current case-1">
                             <div class="col-xs-12 col-sm-8 no-padding">
                                 <div class="copy">
-                                    <p>In the past, ship tracking data wasn't good or abundant enough for a some companies or industries to warrant purchasing. Companies that use contracted vessels, such as mining companies or retailers, ship items and commodities around the globe with little or no insight into where there goods are in the ocean. For the first time in history, Spire will provide enough data to provide those corporations access to near-realtime position of ships carrying the lifeblood of their business.</p>
+                                <span>Nosotros</span>
+                                    <p>Nos encargamos del diseño, instalación y operación de los sistemas que ofrecemos en conjunto con la capacidad y creatividad de nuestro personal técnico, adecuándonos de manera funcional a cualquier necesidad, asegurándonos de que su evento resulte como lo planeó.</p>
+                                <span>Esenografia</span>
+                                    <p>Contribuimos a la formación de nuevas tendencias escenográficas innovando los elementos visuales que conforman el área de un evento, decorado, accesorios, iluminación y lo audiovisual.</p>
                                 </div>
-                                <div class="image-1" style="background-image: url(https://d3fjoi8mc83q5y.cloudfront.net/static/base/img/case-study-images/mining-1.jpg)"></div>
+                                <div class="image-1" style="background-image: url(<?php echo $dir_img;?>servicios/galeria/1.jpg)"></div>
                             </div>
 
                             <div class="col-xs-4 no-padding hidden-xs">
-                                <div class="image-2" style="background-image: url(https://d3fjoi8mc83q5y.cloudfront.net/static/base/img/case-study-images/mining-2.jpg)"></div>
-                                <div class="image-3" style="background-image: url(https://d3fjoi8mc83q5y.cloudfront.net/static/base/img/case-study-images/mining-3.jpg)"></div>
+                                <div class="image-2" style="background-image: url(<?php echo $dir_img;?>servicios/galeria/2.jpg)"></div>
+                                <div class="image-3" style="background-image: url(<?php echo $dir_img;?>servicios/galeria/3.jpg)"></div>
                             </div>
                         </div>
                         <div class="government case-2">
                             <div class="col-xs-12 col-sm-8 no-padding">
                                 <div class="copy">
-                                    <p>Law requires fishing vessels carry AIS transponders. Many fishing boats which fish illegally, simply turn off their transponders. The reduced revisit time of Spire satellites allows for the detection of both time and position of ships when they disable their tracking equipment. Authorities with acess to Spire Sense will know in near-real time the location of illegal fishing.</p>
+                                    <span>Generadores Electricos</span>
+                                    <p>AZPROTEC ofrece soluciones a las necesidades eléctricas mediante la renta de plantas de luz de diferentes capacidades (gasolina o diesel).</p>
+                                    <span>AUDIO</span>
+                                    <p>Diseñamos y adecuamos los sistemas necesarios para cada tipo de recinto o aforo, ofreciéndole la mejor opción para hacer de su evento un éxito.</p>
                                 </div>
-                                <div class="image-1" style="background-image: url(https://d3fjoi8mc83q5y.cloudfront.net/static/base/img/case-study-images/government-1.jpg)"></div>
+                                <div class="image-1" style="background-image: url(<?php echo $dir_img;?>servicios/galeria/4.jpg)"></div>
                             </div>
 
                             <div class="col-xs-4 no-padding hidden-xs">
-                                <div class="image-2" style="background-image: url(https://d3fjoi8mc83q5y.cloudfront.net/static/base/img/case-study-images/government-2.jpg)"></div>
-                                <div class="image-3" style="background-image: url(https://d3fjoi8mc83q5y.cloudfront.net/static/base/img/case-study-images/government-3.jpg)"></div>
+                                <div class="image-2" style="background-image: url(<?php echo $dir_img;?>servicios/galeria/5.jpg)"></div>
+                                <div class="image-3" style="background-image: url(<?php echo $dir_img;?>servicios/galeria/6.jpg)"></div>
                             </div>
                         </div>
                         <div class="portOperations case-3">
                             <div class="col-xs-12 col-sm-8 no-padding">
                                 <div class="copy">
-                                    <p>In less developed countries, a lack of highly developed port infrastructure means that authorities rely on incomplete AIS data. Many small ports, which rely on shipping commerce as an economic enabler, will be coming online with Spire Sense. The better management means reduced delays, less accidents, and economic growth for areas that need it most.</p>
-
+                                <span>Multimedia</span>
+                                    <p>Ofrecemos diversos servicios de video, multimedia, transmisión y procesamiento de imágenes con la mejor calidad y tecnología y personal capacitado para la instalación y operación de nuestros equipos.</p>
+                                    <p>Pantallas de LED, Panorámicas y de Plasma<br>
+                                    Proyectores de 1500 hasta 20000 lúmenes<br>
+                                    Procesadores de video<br>
+                                    Mapping <br>
+                                    Desarrollo de Visuales y video grabaciones CCTV</p>
                                 </div>
-                                <div class="image-1" style="background-image: url(https://d3fjoi8mc83q5y.cloudfront.net/static/base/img/case-study-images/portoperations-1.jpg)"></div>
+                                <div class="image-1" style="background-image: url(<?php echo $dir_img;?>servicios/galeria/7.jpg)"></div>
                             </div>
 
                             <div class="col-xs-4 no-padding hidden-xs">
-                                <div class="image-2" style="background-image: url(https://d3fjoi8mc83q5y.cloudfront.net/static/base/img/case-study-images/portoperations-2.jpg)"></div>
-                                <div class="image-3" style="background-image: url(https://d3fjoi8mc83q5y.cloudfront.net/static/base/img/case-study-images/portoperations-3.jpg)"></div>
+                                <div class="image-2" style="background-image: url(<?php echo $dir_img;?>servicios/galeria/8.jpg)"></div>
+                                <div class="image-3" style="background-image: url(<?php echo $dir_img;?>servicios/galeria/9.jpg)"></div>
                             </div>
                         </div>
                         <div class="arcticShipping case-4">
                             <div class="col-xs-12 col-sm-8 no-padding">
                                 <div class="copy">
-                                    <p>Arctic shipping routes, which continue to grow in traffic due to reduced sea ice, are a perilous way of crossing the ocean. Search and rescue is difficult and cleanup resources for incidents are hours - if it not days - away. Coordinating and logistics in this region are ever more important as volume grows. We give our customers operating in this region the added control to make good - and safe - decisions.</p>
+                                    <p>En continua innovación, para brindarte la mejor experiencia.</p>
                                 </div>
                                 <div class="image-1" style="background-image: url(https://d3fjoi8mc83q5y.cloudfront.net/static/base/img/case-study-images/arcticshipping-1.jpg)"></div>
                             </div>
@@ -483,7 +505,7 @@
                     <li><span>INFO</span> | <a href="mailto:info@azprotec.com">info@azprotec.com</a></li>
                     <li><span>BUSINESS OPPORTUNITIES</span> | <a href="mailto:info@azprotec.com">info@azprotec.com</a></li>
                     <li><span>PRESS</span> | <a href="mailto:press@azprotec.com">press@azprotec.com</a></li>
-                    <li><span>CALL US</span> | <a href="tel:+1 123-100-0000">415-356-3400 </a></li>
+                    <li><span>CALL US</span> | <a href="tel:+1 771-718-9953">01 (771) 718 99 53</a></li>
                     <li><span><a href="#">VISIT US</a></span></li>
                     <!-- <li><span><a href="our-company/index.html#offices">VISIT US</a></span></li> -->
                 </ul>
@@ -508,7 +530,7 @@
 
     <script type="application/javascript">
         Spire.slideshowMain_init();
-        Spire.satalliteSlider_init();
+        /*Spire.satalliteSlider_init();*/
         Spire.sense_init();
     </script>
 
