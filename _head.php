@@ -22,9 +22,9 @@ require_once('config.php');
     <link rel="apple-touch-icon-precomposed" href="<?php echo $dir_img;?>apple-touch-icon-57-precomposed.png">
 
 
-    <link rel="stylesheet" href="<?php echo $dir_css;?>site.css"/> <!-- -->
-<!--    <link rel="stylesheet" href="https://d3fjoi8mc83q5y.cloudfront.net/static/base/css/site.css" />  -->
- <style type="text/css">
+    <link rel="stylesheet" href="<?php echo $dir_css;?>site.css"/> 
+ 
+    <style type="text/css">
     .parrafo{
         text-align: justify;
         text-indent: 1cm;
@@ -82,7 +82,7 @@ require_once('config.php');
 </head>
 
 <!-- sticky-nav -->
-<body class="products-waterway">
+<body class="products-waterway" >
 
 <header class="main-nav">
 
@@ -98,7 +98,7 @@ require_once('config.php');
         <div class="row">
 
             <div class="col-xs-4 col-sm-3 col-xs-offset-1 col-sm-offset-0 logo">
-                <a href="../../index.html">
+                <a href="<?php echo $dir_base;?>">
                     <img class="img-responsive white" src="<?php echo $dir_img;?>logo-white.png" />
                     <img class="img-responsive red" src="<?php echo $dir_img;?>logo.png" />
                 </a>
@@ -208,9 +208,6 @@ require_once('config.php');
                 require_once ('servicios/sense/baner_principal_servicios.php');
                 require_once ('servicios/sense/slider_galeria_servicios.php');
                 echo '</main>';
-                break;
-            case 'home':
-                require_once ('home.php');
                 break;
 
             default:

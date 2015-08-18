@@ -1,3 +1,8 @@
+<?php   $page='home';
+        require_once('_head.php');
+?>
+
+
 <!-- Content Start -->
 <main role="main" class="body">
 
@@ -17,13 +22,10 @@
                     <div class="row">
                         <div class="col-xs-12">
                             <h2 class="alpha text-center">Azprotec</h2>
-                            <p class="alpha-subhead text-center ">
-                            Proveedores de servicios integrales
-                            	<br class="hidden-xs"/>
-para organizadores de eventos, casas productoras,
-                            	<br class="hidden-xs"/>
-instituciones, representantes artísticos y promotores de espectáculos.
-                            	<br class="hidden-xs"/>
+                            <p class="alpha-subhead text-center ">Proveedores de servicios integrales
+                                <br class="hidden-xs"/>para organizadores de eventos, casas productoras,
+                                <br class="hidden-xs"/>instituciones, representantes artísticos y promotores de espectáculos.
+                                <br class="hidden-xs"/>
                             </p>
                         </div>
                     </div>
@@ -114,29 +116,19 @@ instituciones, representantes artísticos y promotores de espectáculos.
                                                                 </div>
                                                             </div>
 
+
                         <div class="container-fluid padding-top60">
                             <div class="row">
 
                                                 <div class="col-xs-12 col-md-6 no-padding-left videoWrapper img-cultura">
-<!-- <iframe id="video1" src="https://www.youtube.com/embed/NxV2Y3ZBVkY" frameborder="0" allowfullscreen=""></iframe>-->
-<!--
-                                                <video id="video1" controls>
-                                                  <source src="Domo_gigante.mp4" type="video/mp4">
-                                                su navegador no soporta la etiqueta video.
-                                                </video> -->
-  <video id="video1" autoplay="autoplay" preload="auto" loop="loop">
-         <source src="Domo_gigante.mp4" type="video/mp4"></source>
-         <source src="Domo_gigante.ogv" type="video/ogv"></source>
-         <source src="Domo_gigante.webm" type="video/webm"></source>
-    </video>   
-                                                <!--
-                                                   
-                           <iframe id="video1" src="https://www.youtube.com/embed/NxV2Y3ZBVkY" frameborder="0" allowfullscreen></iframe> -->
-                                                </div>
-                              <!--
-                                <div class="col-xs-12 col-md-6 no-padding-left videoWrapper">
 
-                                </div> -->
+                                                      <video id="video1" autoplay="autoplay" preload="auto" loop="loop">
+                                                             <source src="Domo_gigante.mp4" type="video/mp4"></source>
+                                                             <source src="Domo_gigante.ogv" type="video/ogv"></source>
+                                                             <source src="Domo_gigante.webm" type="video/webm"></source>
+                                                        </video>   
+                                                </div>
+
                                                 <div class="col-xs-12 col-md-5 copy">
                                                     <h2><span>NUESTRA CULTURA</span></h2>
                                                     <p class="margin-bottom25">Desde nuestros inicios en 1979, en cada proyecto nos sumamos al esfuerzo de nuestros clientes para lograr el éxito de sus producciones, ofreciendo soluciones de calidad, con equipos de vanguardia y personal especializado.<br>
@@ -173,8 +165,6 @@ instituciones, representantes artísticos y promotores de espectáculos.
                                                     <p></p>
 
                                                     <a href="#" class="button secondary">Leer Mas</a>
-                                                    <!-- 
-                                                    <a href="products/stratos/index.html" class="button secondary">Learn More</a> -->
                                                 </div>
                             </div>
                         </div>
@@ -265,8 +255,6 @@ instituciones, representantes artísticos y promotores de espectáculos.
                                         <p>es nuestra prioridad</p>
                                     </div>
                                     <a href="#" class="button officesButton">Leer Mas</a>
-                                    <!-- <a href="careers/index.html#open-positions" class="button officesButton">Apply
-                                        Now</a> -->
                                 </div>
 
                                 <figure class="module-bg office-maps">
@@ -332,8 +320,6 @@ instituciones, representantes artísticos y promotores de espectáculos.
                                         <p>somos la confianza que necesitas</p>
 
                                     </div>
-                                    <!-- <a class="button officesButton" href="careers/index.html#open-positions">Apply Now</a>
-                                     -->
                                     <a class="button officesButton" href="#">Contáctenos</a>
 
                                     </div>
@@ -533,13 +519,80 @@ instituciones, representantes artísticos y promotores de espectáculos.
                                     <div class="bar"></div>
                                 </div>
                             </div>
-                         </div>	
-                    </div>
-                 </div>
-            </div>
-         </div>
-</section>
 
 
 
 </main>
+<!--
+<footer class="module main-footer">
+
+    <div class="row site-map">
+        <div class="container">
+            <div class="col-xs-12 col-sm-2 logo">
+                <a href="index.html">
+                    <img src="./img/logo.png" />
+                </a>
+            </div>
+            <div class="col-xs-12 col-sm-2">
+                <h3><a href="products/sense/index.html">Our Products</a></h3>
+                <ul>
+                    <li><a href="products/sense/index.html">Spire Sense</a></li>
+                    <li><a href="products/stratos/index.html">Spire Stratos</a></li>
+                </ul>
+            </div>
+            <div class="col-xs-12 col-sm-2">
+                <h3><a href="our-company/index.html">Our Company</a></h3>
+                <ul>
+                    <li><a href="our-company/index.html#about/r">About</a></li>
+                    <li><a href="our-company/index.html#milestones/r">Milestones</a></li>
+                    <li><a href="our-company/index.html#team/r">The Team</a></li>
+                    <li><a href="our-company/index.html#offices/r">Our Offices</a></li>
+                </ul>
+            </div>
+            <div class="col-xs-12 col-sm-2">
+                <h3><a href="careers/index.html">Careers</a></h3>
+                <ul>
+                    <li><a href="careers/index.html#ourCulture/r">Our Culture</a></li>
+                    <li><a href="careers/index.html#hiringProcess/r">The Hiring process</a></li>
+                    <li><a href="careers/index.html#open-positions/r">Current Openings</a></li>
+                    <li><a href="careers/index.html#common-questions/r">FAQs</a></li>
+                </ul>
+            </div>
+            <div class="col-xs-12 col-sm-2">
+                <h3><a href="insights/index.html">Insights Blog</a></h3>
+                <ul>
+                    <li><a href="insights/index.html#articles/r">Articles</a></li>
+                    <li><a href="insights/index.html#happenings/r">Happenings</a></li>
+                </ul>
+            </div>
+            <div class="col-xs-12 col-sm-2 social-icons">
+                <ul>
+                    <li>&copy; 2015 Azprotec</li>
+                </ul>
+                <a href="https://www.facebook.com/SpireGlobal" target="_blank"><img src="./img/facebook.png"></a>
+                <a href="https://twitter.com/spireglobal" target="_blank"><img src="https://d3fjoi8mc83q5y.cloudfront.net/static/base/img/teal-social/twitter.png"></a>
+                <a href="https://www.linkedin.com/company/spireglobal" target="_blank"><img src="https://d3fjoi8mc83q5y.cloudfront.net/static/base/img/teal-social/linkedin.png"></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="row email-list">
+        <div class="container">
+            <div class="xs-col-12">
+                <ul class="hidden-xs">
+                    <li><span>CAREERS</span>&ensp;|&ensp;<a href="mailto:careers@spire.com">careers@spire.com</a></li>
+                    <li><span>BUSINESS OPPORTUNITIES</span>&ensp;|&ensp;<a href="mailto:info@spire.com">info@spire.com</a></li>
+                    <li><span>PRESS</span>&ensp;|&ensp;<a href="mailto:press@spire.com">press@spire.com</a></li>
+                    <li><span>CALL US</span>&ensp;|&ensp;<a href="tel:+1 415-356-3400">415-356-3400 </a></li>
+                    <li><span><a href="our-company/index.html#offices">VISIT US</a></span></li>
+                </ul>
+                <ul class="hidden-sm hidden-md hidden-lg">
+                    <li>&copy; 2015 Azprotec</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</footer> -->
+
+<?php require_once('_footer.php');?>

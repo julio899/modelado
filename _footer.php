@@ -78,12 +78,10 @@
 </footer>
 
 
-<!--
-<script src="https://d3fjoi8mc83q5y.cloudfront.net/static/base/js/main.min.js"></script>
--->
 
 <script src="<?php echo $dir_js;?>main.min.js"></script>
--
+<script src="<?php echo $dir_js;?>jquery-1.11.3.min.js"></script>
+
 <div id="fb-root"></div>
 
 
@@ -91,30 +89,29 @@
     if($page=='home'){
         ?>
 
-                    <script type="application/javascript">
-                    function Globe(){
-                                          this.no=false;
 
-                    }
+<script src="<?php echo $dir_js;?>preloadjs-0.6.1.min.js"></script>
+<script src="<?php echo $dir_js;?>precargarImagenes.js"></script>
+<script type="application/javascript">
+        function Globe(){
+                              this.no=false;
+
+        }
 
 
-                        Spire.home_shipVideo = './img/home-sense-copy.png';
-                        Spire.home_shipVideoImg = './img/home-sense-copy.png';
-                        Spire.home_shipImg = './img/home-sense-copy.png';
-                        Spire.home_init();
+            Spire.home_shipVideo = './img/home-sense-copy.png';
+            Spire.home_shipVideoImg = './img/home-sense-copy.png';
+            Spire.home_shipImg = './img/home-sense-copy.png';
+            Spire.home_init();
 
-                    /*        if(Globe.webgl_detect()) {*/
-                          if(Globe.no) {
-                            Globe.init('https://d3fjoi8mc83q5y.cloudfront.net/static/base/img');
-                            //Particles3D.init('/static/base/img');
-                            //Particles2D.init();
-                            ParticlePhysics.init();
+              if(Globe.no) {
+                Globe.init('https://d3fjoi8mc83q5y.cloudfront.net/static/base/img');
+                ParticlePhysics.init();
 
-                        } else {
-                            //$('#globe-fallback').show().prepend('<img class="img-responsive" src="https://d3fjoi8mc83q5y.cloudfront.net/static/base/img/globe-fallback.png">');
-                            $('#globe-wrapper, .globe-hand, .globe-controls').hide();
-                        }
-                    </script>
+            } else {
+                $('#globe-wrapper, .globe-hand, .globe-controls').hide();
+            }
+</script>
         <?php
     }else{
         ?>
