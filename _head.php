@@ -8,6 +8,8 @@ require_once('config.php');
 <html>
 <head>
     <meta charset="utf-8">
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
     <meta name="format-detection" content="telephone=no"/>
     <meta name="apple-mobile-web-app-capable" content="yes"/>
@@ -110,15 +112,18 @@ require_once('config.php');
                     <div class="red-bar"></div>
                 </div>
                 <div class="col-xs-3 <?php if($page=='somos'){echo "active";}?>">
-                    <a class="" href="../../our-company/index.html">Quienes Somos</a>
+                  <!--  <a class="" href="../../our-company/index.html">Quienes Somos</a> -->
+                    <a class="" href="#somos">Quienes Somos</a>
                     <div class="red-bar"></div>
                 </div>
                 <div class="col-xs-3 <?php if($page=='portafolio'){echo "active";}?>">
-                    <a class="" href="../../careers/index.html">Portafolio</a>
+                    <a class="" href="#portafolio">Portafolio</a>
+                    <!-- <a class="" href="../../careers/index.html">Portafolio</a>-->
                     <div class="red-bar"></div>
                 </div>
                 <div class="col-xs-3 <?php if($page=='clientes'){echo "active";}?>">
-                    <a class="" href="../../insights/index.html">Clientes</a>
+                    <a class="" href="#clientes">Clientes</a>
+                    <!-- <a class="" href="../../insights/index.html">Clientes</a> -->
                     <div class="red-bar"></div>
                 </div>
             </div>

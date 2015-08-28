@@ -9,7 +9,7 @@
     <div class="row site-map">
         <div class="container">
             <div class="col-xs-12 col-sm-2 logo">
-                <a href="index.html">
+                <a href="<?php echo $dir_base;?>">
                     <img src="<?php echo $dir_img;?>logo2.png">
                 </a>
             </div>
